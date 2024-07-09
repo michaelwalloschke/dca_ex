@@ -1,4 +1,8 @@
 defmodule UserTest do
+  @moduledoc """
+  User test
+  """
+
   use ExUnit.Case
   doctest User
 

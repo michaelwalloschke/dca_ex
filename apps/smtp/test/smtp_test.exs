@@ -1,4 +1,8 @@
 defmodule SmtpTest do
+  @moduledoc """
+  Smtp test
+  """
+
   use ExUnit.Case
   doctest Smtp
 
