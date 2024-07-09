@@ -1,4 +1,7 @@
 defmodule AuthTest do
+  @moduledoc """
+  Auth test
+  """
   use ExUnit.Case
   doctest Auth
 
