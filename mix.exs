@@ -21,12 +21,12 @@ defmodule DcaEx.MixProject do
       # Docs
       name: "DcaEx",
       source_url: "https://github.com/Taraluktus/dca_ex"
-    #   homepage_url: "http://YOUR_PROJECT_HOMEPAGE",
-    # docs: [
-    #   main: "MyApp", # The main page in the docs
-    #   logo: "path/to/logo.png",
-    #   extras: ["README.md"]
-    # ]
+      #   homepage_url: "http://YOUR_PROJECT_HOMEPAGE",
+      # docs: [
+      #   main: "MyApp", # The main page in the docs
+      #   logo: "path/to/logo.png",
+      #   extras: ["README.md"]
+      # ]
     ]
   end
 
@@ -37,12 +37,9 @@ defmodule DcaEx.MixProject do
   # Run "mix help deps" for examples and options.
   defp deps do
     [
-      {:jason, "~> 1.4"},
-
       {:credo, "~> 1.7", only: :dev, runtime: false},
       {:dialyxir, "~> 1.4", only: :dev, runtime: false},
       {:ex_doc, "~> 0.34", only: :dev, runtime: false},
-
       {:excoveralls, "~> 0.18", only: :test}
     ]
   end
@@ -63,5 +60,4 @@ defmodule DcaEx.MixProject do
       ensure_consistency: ["test", "dialyzer", "credo --strict", "coveralls"]
     ]
   end
-
 end
