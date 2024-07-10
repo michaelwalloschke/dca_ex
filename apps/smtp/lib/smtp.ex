@@ -4,6 +4,7 @@ defmodule Smtp do
   """
   @moduledoc since: "0.1.0"
 
+  @spec hello() :: :world
   @doc """
   Hello world.
 
