@@ -2,6 +2,7 @@ defmodule User do
   @moduledoc """
   Documentation for `User`.
   """
+  @moduledoc since: "0.1.0"
 
   @doc """
   Hello world.
@@ -12,6 +13,7 @@ defmodule User do
       :world
 
   """
+  @doc since: "0.1.0"
   def hello do
     :world
   end
