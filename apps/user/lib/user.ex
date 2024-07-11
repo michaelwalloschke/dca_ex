@@ -1,6 +1,6 @@
 defmodule User do
   @moduledoc """
-  General user struct `User`
+  User struct `User`
 
   Fields:
   - `name` - The user's name.
