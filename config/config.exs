@@ -9,10 +9,7 @@
 # move said applications out of the umbrella.
 import Config
 
-# Sample configuration:
-#
-#     config :logger, :console,
-#       level: :info,
-#       format: "$date $time [$level] $metadata$message\n",
-#       metadata: [:user_id]
-#
+config :logger, :console,
+  level: :info,
+  format: "$time $metadata[$level] $message\n",
+  metadata: [:request_id, :user_id]

@@ -4,18 +4,6 @@ defmodule User do
   """
   @moduledoc since: "0.1.0"
 
-  @spec hello() :: :world
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> User.hello()
-      :world
-
-  """
-  @doc since: "0.1.0"
-  def hello do
-    :world
-  end
+  @enforce_keys [:name]
+  defstruct [:name, :hash, :email, :disabled, :display_name, :created_at, :last_login_at]
 end
